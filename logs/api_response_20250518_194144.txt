@@ -1,2 +1,0 @@
-HTTP Code: 201
-Response: {"messageId":"<202505181141.49785073341@smtp-relay.mailin.fr>"}

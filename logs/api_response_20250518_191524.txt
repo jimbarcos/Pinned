@@ -1,2 +1,0 @@
-HTTP Code: 401
-Response: {"message":"Key not found","code":"unauthorized"}

@@ -1,5 +1,0 @@
-API Key: Yxkeysib-d...xNL6l
-From Email: 8d4d0f001@smtp-brevo.com
-From Name: Pinned Support
-To Email: jimbarcos01@gmail.com
-Reset URL: http://pinned.free.nf/reset-password.php?token=ea0d8ba59a812f0581f519a9f615ff5b355521937ec2be793554669d319c7fdc

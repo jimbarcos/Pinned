@@ -1,5 +1,0 @@
-API Key: xkeysib-d3...xNL6l
-From Email: jimbarcos01@gmail.com
-From Name: Pinned Support
-To Email: jimaerolbarcos@gmail.com
-Reset URL: http://pinned.free.nf/reset-password.php?token=0a0eaee55a53904c6a1d312db24b1b2695d819f50987b7810a4bfdac1b3b76e1
