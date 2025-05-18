@@ -59,29 +59,5 @@ The application uses three main tables:
    - Stall and user associations
    - Review content and metadata
 
-## Setup Instructions
 
-1. **Prerequisites**
-   - PHP 7.4 or higher
-   - MySQL 5.7 or higher
-   - Web server (Apache/Nginx)
-   - SSL certificate for secure connections
-
-2. **Installation**
-   - Clone the repository
-   - Create a MySQL database
-   - Import `setup_database.sql` to create the database schema
-   - Copy `config.secret.example.php` to `config.secret.php` and update with your credentials
-   - Configure your web server to point to the project directory
-   - Set up SSL certificate for secure connections
-
-3. **Configuration**
-   - Update database credentials in `config.secret.php`
-   - Configure email settings in `mail_config.php`
-   - Set up SMTP settings for email functionality
-
-4. **Security**
-   - Ensure `config.secret.php` is not tracked in version control
-   - Set up proper file permissions
-   - Enable SSL for secure connections
 
