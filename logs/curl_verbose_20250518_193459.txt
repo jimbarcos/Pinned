@@ -1,0 +1,61 @@
+* Host api.brevo.com:443 was resolved.
+* IPv6: 2a06:98c1:3200::90:82, 2a06:98c1:3200::90:80, 2a06:98c1:3200::90:81, 2a06:98c1:3200::90:83
+* IPv4: 141.101.90.106, 141.101.90.107, 141.101.90.105, 141.101.90.104
+*   Trying [2a06:98c1:3200::90:82]:443...
+* Immediate connect fail for 2a06:98c1:3200::90:82: Cannot assign requested address
+*   Trying [2a06:98c1:3200::90:80]:443...
+* Immediate connect fail for 2a06:98c1:3200::90:80: Cannot assign requested address
+*   Trying [2a06:98c1:3200::90:81]:443...
+* Immediate connect fail for 2a06:98c1:3200::90:81: Cannot assign requested address
+*   Trying [2a06:98c1:3200::90:83]:443...
+* Immediate connect fail for 2a06:98c1:3200::90:83: Cannot assign requested address
+*   Trying 141.101.90.106:443...
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=brevo.com
+*  start date: Apr 13 04:34:34 2025 GMT
+*  expire date: Jul 12 05:34:31 2025 GMT
+*  issuer: C=US; O=Google Trust Services; CN=WE1
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+*   Certificate level 0: Public key type ? (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+*   Certificate level 1: Public key type ? (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+*   Certificate level 2: Public key type ? (384/192 Bits/secBits), signed using sha256WithRSAEncryption
+* Connected to api.brevo.com (141.101.90.106) port 443
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://api.brevo.com/v3/smtp/email
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: api.brevo.com]
+* [HTTP/2] [1] [:path: /v3/smtp/email]
+* [HTTP/2] [1] [accept: application/json]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [api-key: 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]
+* [HTTP/2] [1] [content-length: 2511]
+> POST /v3/smtp/email HTTP/2
+Host: api.brevo.com
+Accept: application/json
+Content-Type: application/json
+api-key: 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
+Content-Length: 2511
+
+* upload completely sent off: 2511 bytes
+< HTTP/2 201 
+< date: Sun, 18 May 2025 11:35:00 GMT
+< content-type: application/json
+< content-length: 64
+< x-envoy-upstream-service-time: 56
+< access-control-allow-credentials: true
+< sib-request-id: bce51ce0-6d2b-9ad1-852c-6a0abd75a228
+< access-control-allow-origin: *
+< access-control-allow-headers: *
+< access-control-allow-methods: PUT, POST, GET, DELETE, PATCH, OPTIONS
+< x-sib-ratelimit-limit: 1000
+< x-sib-ratelimit-remaining: 999
+< x-sib-ratelimit-reset: 1
+< cf-cache-status: DYNAMIC
+< server: cloudflare
+< cf-ray: 941b0c7158ca34b5-WAW
+< 
+* Connection #0 to host api.brevo.com left intact
